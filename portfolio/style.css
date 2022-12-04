@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(aqua, green, transparent);
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color:#fff;
+    text-align: center;
+    box-shadow: inset 2px 2px 1px 8px #81e7e2;
+    border-radius: 29px;
+
+}
+
+.col1-md-6 img{
+    width: 104px;
+    height: 104px;
+    box-shadow: inset 0 0 6px 7px black;
+    border-radius: 54px;
+    margin: 1rem 59rem;
+}
+
+.col2-md-6 {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 43px;
+    font-size: xx-large;
+    box-shadow: inset 0 0 15px 6px cyan;
+}
+
+.col4-md-6 img {
+    width: 175px;
+    margin: 1rem 43rem;
+    padding: 0;
+}
+
+.col3-md-6 {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #fff;
+    border-radius: 96px;
+    box-shadow: inset 0 0 10px 5px cyan;
+}
+
+.col4-md-6{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #fff;
+    border-radius: 118px;
+    box-shadow: inset 0 0 9px 8px cyan;
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: radial-gradient(aqua, green, transparent);
+        background-repeat: no-repeat;
+    }
+    
+    header {
+        font-size: xx-large;
+        font-weight: bold;
+        background-color:#fff;
+        text-align: center;
+        box-shadow: inset 2px 2px 1px 8px #81e7e2;
+        border-radius: 29px;
+    
+    }
+    
+    .col1-md-6 img{
+        width: 104px;
+        height: 104px;
+        box-shadow: inset 0 0 6px 7px black;
+        border-radius: 54px;
+        margin: 1rem 8rem;
+    }
+    
+    .col2-md-6 {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 43px;
+        font-size: xx-large;
+        box-shadow: inset 0 0 15px 6px cyan;
+    }
+    
+    .col4-md-6 img {
+        width: 175px;
+        margin: 1rem 5rem;
+        padding: 0;
+    }
+    
+    
+    .col3-md-6 {
+        text-align: center;
+        font-size: xx-large;
+        background-color: #fff;
+        border-radius: 96px;
+        box-shadow: inset 0 0 10px 5px cyan;
+    }
+    
+    .col4-md-6{
+        text-align: center;
+        font-size: xx-large;
+        background-color: #fff;
+        border-radius: 118px;
+        box-shadow: inset 0 0 9px 8px cyan;
+    }
+    
+}
